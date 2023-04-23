@@ -1,0 +1,37 @@
+/* Selection */
+#selection__main-container {
+  display: none;
+  width: 90%;
+  max-width: 450px;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#selection__container {
+  width: 90%;
+  height: 85%;
+  background-color: var(--dark-blue80);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 5px;
+  padding: 10px;
+  box-shadow: var(--btn-shadow);
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+#selection__container .large-btn {
+  width: 49%;
+}
+
+#home__btn {
+  font-size: 2rem;
+  line-height: normal;
+}
+
+.selection__footer {
+  align-self: flex-start;
+}
